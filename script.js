@@ -1,5 +1,13 @@
 function fibonacci(num) {
 // your code here
+	if(num == 1)
+	{
+		return 0
+	}
+	if(num == 2)
+	{
+		return 1
+	}
 	let f1 = 0
 	let f2 = 1
 	let f3 = 0
